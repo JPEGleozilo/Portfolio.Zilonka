@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.no-interactivo {
+    user-select: none;
+    white-space: nowrap
+}
+
+.rectangulo {
+width: 100%;
+height: 40%;
+background-color: rgb(53, 53, 53);
+position:fixed;
+}
+
+.rectangulo * {
+    margin: 0;
+    padding: 0;
+    color: white;}
+
+.pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+    display: block;
+    position: fixed;
+    top: 5%;
+    left: 20px;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+    font-family: 'Arial Narrow';
+}
+h2 {
+    font-family: 'Arial Narrow';
+    font-weight: normal;
+    font-size:larger;
+}
+
+.nombre {
+    left: 175px;
+    top: 78px;
+    position: fixed;
+    font-stretch: expanded;
+}
+.carrera {
+    left: 174px;
+    top: 115px;
+    position:fixed;
+    font-stretch: ultra-expanded;
+}
+
+.universidad {
+    left: 170px;
+    top: 140px;
+    position: fixed;
+    font-stretch: extra-condensed;
+}
+
+.menu {
+    top: 210px;
+    left: 0.8%;
+    position: fixed;
+}
+
+.separador {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(36, 36, 36);
+    position: fixed;
+    top: 244px;
+}
+
+h3 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size:larger;
+}
+
+.inter1 {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 210px;
+    left: 4%;
+}
+
+.bienvenida {
+    left: 8.3%;
+    top: 215px;
+
+    position: fixed;
+}
+
+.inter2 {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 210px;
+    left:20%;
+}
+
+.carreras {
+    left: 27%;
+    top: 215px;
+    position: fixed;
+}
+
+.inter3 {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 210px;
+    left: 39%;
+}
+
+.aptitudes {
+    left: 45%;
+    top: 215px;
+    position: fixed;
+}
+
+.inter4 {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 210px;
+    left: 57.5%;
+}
+
+
+.proyectos {
+    left: 64.6%;
+    top: 215px;
+    position: fixed;
+}
+
+.inter5 {
+    width: 2px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 210px;
+    left: 79%;
+}
+
+.gustos {
+    left: 86%;
+    top: 215px;
+    position: fixed;}
+
+.contactos {
+    left: 86.5%;
+    top: 9%;
+    position: fixed;
+}
+
+.arroba {
+    width: 23px;
+    left: 81.5%;
+    top: 14.25%;
+    position: fixed;
+}
+
+.mail {
+    left: 83.9%;
+    top: 14%;
+    position: fixed;
+}
+
+.mail a {
+    text-decoration: none;
+    color: white;
+}
+
+.mail a:hover {
+    text-decoration: underline;
+}
+
+.githubicon {
+    width: 23px;
+    left: 81.5%;
+    top: 19.5%;
+    position: fixed;
+}
+
+.github {
+    width: 23px;
+    left: 84%;
+    top: 19.5%;
+    position: fixed;
+}
+
+.github a {
+    text-decoration: none;
+    color: white;
+}
+
+.github a:hover {
+    text-decoration: underline;
+}
+
+.linkedinicon {
+    width: 23px;
+    left: 81.5%;
+    top: 25.5%;
+    position: fixed;
+}
+
+.linkedin {
+    width: 23px;
+    left: 84%;
+    top: 25.5%;
+    position: fixed;
+    
+}
+
+.linkedin a {
+    text-decoration: none;
+    color: white;
+}
+
+.linkedin a:hover {
+    text-decoration: underline;
+}
+
+p {
+    color: rgb(58, 58, 58);
+    margin: 0;
+    padding: 0;
+    font-family: Georgia;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.bienvenidatext {
+    position: absolute;
+    top: 43%;
+    right:5%;
+    color: black;
+    width: 90%;
+    height: auto;
+}
+.italic {
+    font-style: oblique;
+}
+
+.tooltip {
+    position: relative;
+    cursor: pointer;
+}
+
+
+.tooltip-text {
+    visibility: hidden;
+    opacity: 0;
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    outline: 1px solid rgb(0, 0, 0);
+    color: rgb( 58, 58, 58);
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    transition: opacity 0s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+h4{
+    font-family: Georgia;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: lighter;
+    text-decoration: underline;
+    margin: 0;
+    padding: 0;
+}
