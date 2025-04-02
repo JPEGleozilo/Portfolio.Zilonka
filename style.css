@@ -10,7 +10,7 @@ body{
 
 .rectangulo {
 width: 100%;
-height: 40%;
+height: 34.2%;
 background-color: rgb(53, 53, 53);
 position:fixed;
 }
@@ -65,16 +65,17 @@ h2 {
 
 .menu {
     top: 210px;
-    left: 0.8%;
+    left: 0.65%;
     position: fixed;
 }
 
 .separador {
     width: 100%;
-    height: 3px;
+    height: 5.8%;
     background-color: rgb(36, 36, 36);
     position: fixed;
-    top: 244px;
+    top: 34.2%;
+    z-index: -10;
 }
 
 h3 {
@@ -97,6 +98,7 @@ h3 {
     top: 215px;
 
     position: fixed;
+    cursor: pointer;
 }
 
 .inter2 {
@@ -112,6 +114,7 @@ h3 {
     left: 27%;
     top: 215px;
     position: fixed;
+    cursor: pointer;
 }
 
 .inter3 {
@@ -127,6 +130,7 @@ h3 {
     left: 45%;
     top: 215px;
     position: fixed;
+    cursor: pointer;
 }
 
 .inter4 {
@@ -138,11 +142,11 @@ h3 {
     left: 57.5%;
 }
 
-
 .proyectos {
     left: 64.6%;
     top: 215px;
     position: fixed;
+    cursor: pointer;
 }
 
 .inter5 {
@@ -157,7 +161,9 @@ h3 {
 .gustos {
     left: 86%;
     top: 215px;
-    position: fixed;}
+    position: fixed;
+    cursor: pointer;
+}
 
 .contactos {
     left: 86.5%;
@@ -242,14 +248,7 @@ p {
     font-size: 30px;
     font-weight: lighter;
 }
-.bienvenidatext {
-    position: absolute;
-    top: 43%;
-    right:5%;
-    color: black;
-    width: 90%;
-    height: auto;
-}
+
 .italic {
     font-style: oblique;
 }
@@ -291,4 +290,80 @@ h4{
     text-decoration: underline;
     margin: 0;
     padding: 0;
+}
+
+.pestañas {
+    display: flex;
+    top: 40%;
+    position: fixed;
+    z-index: 10; 
+}
+
+.pestaña.activo {
+    font-weight: bold;
+}
+
+.contenido {
+    text-align: left;
+}
+
+.panel {
+    display: none;
+}
+
+.panel.activo {
+    display: block;
+    position: absolute;
+    top: 43%;
+    right:5%;
+    color: black;
+    width: 90%;
+    height: auto;
+}
+
+.fondo {
+    display: none;
+    z-index: -1;
+    background-color: rgb(53, 53, 53);
+    height: 5.8%;
+    top: 34.2%;
+}
+
+.bienvenida.fondo.activo {
+    width: 16%;
+    left: 4%;
+}
+
+.carreras.fondo.activo {
+    width: 19%;
+    left: 20%;
+}
+
+.aptitudes.fondo.activo {
+    width: 18.5%;
+    left: 39%;
+}
+
+.proyectos.fondo.activo {
+    width: 21.5%;
+    left: 57.5%;
+}
+
+.gustos.fondo.activo {
+    width: 21%;
+    left: 79%;
+}
+
+.fondo.activo {
+    display: block;
+}
+
+.menu.fondo {
+    background-color: rgb(53, 53, 53);
+    width: 4%;
+    height: 5.8%;
+    z-index: 10;
+    right: 96%;
+    top: 34.2%;
+    position:absolute;
 }
