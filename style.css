@@ -429,3 +429,31 @@ a.lang {
 .panel.proyectos p {
     text-align: center;
 }
+
+.vj {
+    position: absolute;
+    left: 12.25%;
+    text-align: center;
+}
+
+.vjc.mc {
+    position: relative;
+    left: -50%;
+}
+
+.vjc.tf {
+    position: relative;
+    left: 50%;
+    top: -35px;
+}
+
+.vjc.ac {
+    position: relative;
+    left: -52%;
+}
+
+.vjc.ai {
+    position: relative;
+    left: 52%;
+    top: -35px;
+}
