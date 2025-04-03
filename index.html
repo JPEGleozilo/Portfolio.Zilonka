@@ -15,42 +15,56 @@
             <h2 class="carrera">LicVid 2°año</h2>
             <h2 class="universidad">UNRaf </h2>
              <img src="Assets/menu.svg" alt="menú" class="menu">
-             <c class="menu fondo"></c>
+             <div class="menuF"></div>
             <div class="inter1"></div>
-                <h3 class="bienvenida pestaña activo" data-tab="bienvenida">Bienvenida</h3>
-                <b class="bienvenida fondo activo"></b>
+                <b class="bienvenida fondo activo" data-tab="bienvenida">
+                    <h3 class="bienvenida pestaña activo">Bienvenida</h3>
+                </b>
             <div class="inter2"></div>
-                <h3 class="carreras pestaña" data-tab="carreras" >Carrera</h3>
-                <b class="carreras fondo"></b>
+                <b class="carreras fondo" data-tab="carreras">
+                    <h3 class="carreras pestaña">Carrera</h3>
+                </b>
             <div class="inter3"></div>
-                <h3 class="aptitudes pestaña" data-tab="aptitudes">Aptitudes</h3>
-                <b class="aptitudes fondo"></b>
-            <div class="inter4"></div>
-                <h3 class="proyectos pestaña" data-tab="proyectos">Proyectos</h3>
-                <b class="proyectos fondo"></b>
+                <b class="aptitudes fondo" data-tab="aptitudes">
+                    <h3 class="aptitudes pestaña">Aptitudes</h3>
+                </b>
+            <div class="inter4"></div> 
+                    <b class="proyectos fondo" data-tab="proyectos">
+                        <h3 class="proyectos pestaña">Proyectos</h3>
+                    </b>
             <div class="inter5"></div>
-                <h3 class="gustos pestaña" data-tab="gustos">Intereses</h3>
-                <b class="gustos fondo"></b>
+                <b class="gustos fondo" data-tab="gustos">
+                    <h3 class="gustos pestaña">Intereses</h3>
+                </b>
             <div class="inter6"></div>
             <div class="separador"></div>
-            <h3 class="contactos">contacto:</h3>
+            <b class="contactos-contenedor">
+                <h3 class="contactos">contacto:</h3>
+                <div class="mail-contenedor">
              <img src="Assets/arroba.svg" alt="ícono arroba" class="arroba">
             <h3 class="mail">
-            <a href="mailto:zilonkaleo@gmail.com" target="_blank">zilonkaleo@gmail.com</a>
+                <a href="mailto:zilonkaleo@gmail.com" target="_blank">zilonkaleo@gmail.com</a>
             </h3>
-             <img src="Assets/github.svg" alt="ícono github" class="githubicon">
-            <h3 class="github">
-                <a href="https://github.com/JPEGleozilo" target="_blank">@JPEGleozilo</a>
-            </h3>
-             <img src="Assets/linkedin.svg" alt="ícono linkedin" class="linkedinicon">
-            <h3 class="linkedin">
-                <a href="https://www.linkedin.com/in/leonardo-a-zilonka/" target="_blank">Leonardo Zilonka</a>
+                </div>
+                <div class="github-contenedor">
+                 <img src="Assets/github.svg" alt="ícono github" class="githubicon">
+                <h3 class="github">
+                    <a href="https://github.com/JPEGleozilo" target="_blank">@JPEGleozilo</a>
+                 </h3>
+                </div> 
+                <div class="linkedin-contenedor">
+                <img src="Assets/linkedin.svg" alt="ícono linkedin" class="linkedinicon">
+                <h3 class="linkedin">
+                    <a href="https://www.linkedin.com/in/leonardo-a-zilonka/" target="_blank">Leonardo Zilonka</a>
                 </h3>
+                </div>
+            </b>
+            </h3>
         </div>
     </div>         
     
     <div class="contenido">
-        <div id="bienvenida" class="panel activo">
+        <div id="bienvenida" class="panel bienvenida activo">
                 <p>¡Bienvenido a mi portfolio!
                     Mi nombre es Leonardo Zilonka, actualmente soy estudiante de <a class="italic tooltip">LicVid
                         <span class="tooltip-text">Licenciatura en Producción de Videojuegos y Entretenimiento Digital</span>
@@ -70,16 +84,16 @@
                         Aunque también soy hábil con la programación y me puedo 
                         adaptar fácilmente a nuevos lenguajes y programas.</p>
         </div>
-        <div id="carreras" class="panel">
+        <div id="carreras" class="panel carreras">
             <p>carrera</p>
         </div>
-        <div id="aptitudes" class="panel">
+        <div id="aptitudes" class="panel aptitudes">
             <p>aptitudes</p>
         </div>
-        <div id="proyectos" class="panel">
+        <div id="proyectos" class="panel proyectos">
             <p>proyectos</p>
         </div>
-        <div id="gustos" class="panel">
+        <div id="gustos" class="panel gustos">
             <p>intereses</p>
         </div>
     </div>

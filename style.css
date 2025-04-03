@@ -86,7 +86,7 @@ h3 {
 
 .inter1 {
     width: 2px;
-    height: 40px;
+    height: 35.55px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 210px;
@@ -94,43 +94,33 @@ h3 {
 }
 
 .bienvenida {
-    left: 8.3%;
-    top: 215px;
-
     position: fixed;
-    cursor: pointer;
 }
 
 .inter2 {
     width: 2px;
-    height: 40px;
+    height: 35.55px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 210px;
-    left:20%;
+    left:23.2%;
 }
 
 .carreras {
-    left: 27%;
-    top: 215px;
     position: fixed;
-    cursor: pointer;
 }
 
 .inter3 {
     width: 2px;
-    height: 40px;
+    height: 35.55px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 210px;
-    left: 39%;
+    left: 42.4%;
 }
 
 .aptitudes {
-    left: 45%;
-    top: 215px;
     position: fixed;
-    cursor: pointer;
 }
 
 .inter4 {
@@ -139,49 +129,56 @@ h3 {
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 210px;
-    left: 57.5%;
+    left: 61.6%;
 }
 
 .proyectos {
-    left: 64.6%;
-    top: 215px;
     position: fixed;
-    cursor: pointer;
 }
 
 .inter5 {
     width: 2px;
-    height: 40px;
+    height: 35.55px;
     background-color: rgb(255, 255, 255);
     position: fixed;
     top: 210px;
-    left: 79%;
+    left: 80.8%;
 }
 
 .gustos {
-    left: 86%;
-    top: 215px;
     position: fixed;
-    cursor: pointer;
+}
+
+.contactos-contenedor {
+    left: 87%;
+    top: 50px;
+    position: relative;
+    width: auto;
+    height: auto;
 }
 
 .contactos {
-    left: 86.5%;
-    top: 9%;
-    position: fixed;
+    left: -85px;
+    position: relative;
+}
+
+.mail-contenedor{
+    position: relative;
+    left: -55px;
+    top: 4px;
+    width: auto;
+    height: auto;
+    
 }
 
 .arroba {
-    width: 23px;
-    left: 81.5%;
-    top: 14.25%;
-    position: fixed;
+    height: 23px;
+    position: absolute;
+    left: -31px;
 }
 
 .mail {
-    left: 83.9%;
-    top: 14%;
-    position: fixed;
+    position: relative;
 }
 
 .mail a {
@@ -193,18 +190,22 @@ h3 {
     text-decoration: underline;
 }
 
+.github-contenedor{
+    position: relative;
+    top: 9px;
+    left:-55px;
+    width: auto;
+    height: auto;
+
+}
 .githubicon {
-    width: 23px;
-    left: 81.5%;
-    top: 19.5%;
-    position: fixed;
+    height: 23px;
+    position: absolute;
+    left: -31px;
 }
 
 .github {
-    width: 23px;
-    left: 84%;
-    top: 19.5%;
-    position: fixed;
+    position: relative;
 }
 
 .github a {
@@ -216,18 +217,23 @@ h3 {
     text-decoration: underline;
 }
 
+.linkedin-contenedor{
+    position: relative;
+    top: 16px;
+    left:-55px;
+    width: auto;
+    height: auto;
+
+}
+
 .linkedinicon {
-    width: 23px;
-    left: 81.5%;
-    top: 25.5%;
-    position: fixed;
+    height: 23px;
+    left: -31px;
+    position: absolute;
 }
 
 .linkedin {
-    width: 23px;
-    left: 84%;
-    top: 25.5%;
-    position: fixed;
+    position: relative;
     
 }
 
@@ -269,7 +275,7 @@ p {
     text-align: center;
     padding: 5px;
     border-radius: 5px;
-    position: absolute;
+    position: fixed;
     bottom: 125%;
     left: 50%;
     transform: translateX(-50%);
@@ -299,10 +305,6 @@ h4{
     z-index: 10; 
 }
 
-.pestaña.activo {
-    font-weight: bold;
-}
-
 .contenido {
     text-align: left;
 }
@@ -313,7 +315,7 @@ h4{
 
 .panel.activo {
     display: block;
-    position: absolute;
+    position: fixed;
     top: 43%;
     right:5%;
     color: black;
@@ -322,48 +324,76 @@ h4{
 }
 
 .fondo {
-    display: none;
+    display: block;
     z-index: -1;
-    background-color: rgb(53, 53, 53);
-    height: 5.8%;
+    height: 35.55px;
     top: 34.2%;
 }
 
-.bienvenida.fondo.activo {
-    width: 16%;
+.bienvenida.fondo {
     left: 4%;
+    background-color: rgb(36, 36, 36);
+    width: 19.2%;
+    height: 35.55px;
+    position: fixed;
+    cursor: pointer;
 }
 
-.carreras.fondo.activo {
-    width: 19%;
-    left: 20%;
+.carreras.fondo {
+    left: 23.2%;
+    background-color: rgb(36, 36, 36);
+    width: 19.2%;
+    height: 35.55px;
+    position: fixed;
+    cursor: pointer;
 }
 
-.aptitudes.fondo.activo {
-    width: 18.5%;
-    left: 39%;
+.aptitudes.fondo {
+    left: 42.4%;
+    background-color: rgb(36, 36, 36);
+    width: 19.2%;
+    height: 35.55px;
+    position: fixed;
+    cursor: pointer;
 }
 
-.proyectos.fondo.activo {
-    width: 21.5%;
-    left: 57.5%;
+.proyectos.fondo {
+    background-color: rgb(36, 36, 36);
+    left: 61.6%;
+    width: 19.2%;
+    height: 35.55px;
+    position: fixed;
+    cursor: pointer;
 }
 
-.gustos.fondo.activo {
-    width: 21%;
-    left: 79%;
+.gustos.fondo{
+    left: 80.8%;
+    background-color: rgb(36, 36, 36);
+    width: 19.2%;
+    height: 35.55px;
+    position: fixed;
+    cursor: pointer;
 }
 
 .fondo.activo {
+    width: 19.2%;
     display: block;
+    background-color: rgb(53, 53, 53);
 }
 
-.menu.fondo {
+ .menuF {
     background-color: rgb(53, 53, 53);
     width: 4%;
     height: 5.8%;
-    z-index: 10;
+    z-index: -1;
     right: 96%;
     top: 34.2%;
-    position:absolute;
+    position:fixed;
+}
+
+.pestaña {
+    position: relative;
+    top:3px;
+    text-align: center;
+    font-weight: normal;
 }

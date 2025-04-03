@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-    const tabButtons = document.querySelectorAll(".pestaña");
+    const tabButtons = document.querySelectorAll(".fondo");
     const tabPanels = document.querySelectorAll(".panel");
     const tabBackgrounds = document.querySelectorAll("b"); 
 
