@@ -404,7 +404,8 @@ a.sw {
     right: 90%;
 }
 
-a.mid {width: 2px;
+a.mid {
+    width: 2px;
     height: 200px;
     background-color: rgb( 58, 58, 58);
     left: 58%;
