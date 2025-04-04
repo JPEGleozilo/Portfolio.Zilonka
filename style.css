@@ -9,8 +9,8 @@ body{
 }
 
 .rectangulo {
-width: 100%;
-height: 34.2%;
+width: 100vw;
+height: 34.2vh;
 background-color: rgb(53, 53, 53);
 position:fixed;
 z-index: 10;
@@ -23,13 +23,13 @@ transform-origin: top left;
     color: white;}
 
 .pfp {
-    width: 11%;
+    height: 22vh;
     border-radius: 100%;
     object-fit: cover;
     display: block;
     position: absolute;
-    top: 13%;
-    left: 1%;
+    top: 3vh;
+    left: 1vw;
 }
 
 body {
@@ -37,47 +37,49 @@ body {
 }
 h1 {
     font-family: 'Arial Narrow';
+    font-size: 5vh;
 }
 h2 {
     font-family: 'Arial Narrow';
     font-weight: normal;
-    font-size:120%;
+    font-size:3.25vh;
 }
 h3 {
     font-family: Arial;
     font-weight: normal;
-    font-size: 120%;
+    font-size: 3.25vh;
 }
 
 .nombre {
-    left:13%;
-    top: 30%;
+    left:12vw;
+    top: 10vh;
     position: absolute;
     font-stretch: expanded;
 }
 .carrera {
-    left: 13%;
-    top: 48%;
+    left: 12vw;
+    top: 16vh;
     position:absolute;
     font-stretch: ultra-expanded;
 }
 
 .universidad {
-    left: 13%;
-    top: 58%;
+    left: 12vw;
+    top: 19vh;
     position: absolute;
     font-stretch: extra-condensed;
 }
 
 .menu {
-    top: 100%;
-    left: 0.65%;
+    top: 34.2vh;
+    left: 0.65vw;
+    height: 5.1vh;
     position: absolute;
     align-content: center;
 }
 
 .inter.uno {
-    left: 4%;
+    left: 4vw;
 }
 
 .bienvenida {
@@ -85,7 +87,7 @@ h3 {
 }
 
 .inter.dos {
-    left:23.2%;
+    left:23.2vw;
 }
 
 .carreras {
@@ -93,7 +95,7 @@ h3 {
 }
 
 .inter.tres {
-    left: 42.4%;
+    left: 42.4vw;
 }
 
 .aptitudes {
@@ -101,7 +103,7 @@ h3 {
 }
 
 .inter.cuatro {
-    left: 61.6%;
+    left: 61.6vw;
 }
 
 .proyectos {
@@ -109,15 +111,15 @@ h3 {
 }
 
 .inter.cinco {
-    left: 80.8%;
+    left: 80.8vw;
 }
 
 .inter {
-    width: 2px;
-    height: 17%;
+    width: 0.125vw;
+    height: 5.8vh;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 100%;
+    top: 34.2vh;
 }
 
 .gustos {
@@ -125,30 +127,30 @@ h3 {
 }
 
 .contactos-contenedor {
-    left: 82%;
-    top: 25%;
+    left: 82vw;
+    top: 7vh;
     position: relative;
     width: auto;
     height: auto;
 }
 
 .contactos {
-    left: -20%;
+    left: -2vw;
     position: absolute;
 }
 
 .mail-contenedor{
     position: relative;
-    top: 14%;
+    top: 5vh;
     width: auto;
     height: auto;
     
 }
 
 .arroba {
-    height: 23px;
+    height: 4vh;
     position: absolute;
-    left: -31px;
+    left: -5.1vh;
 }
 
 .mail {
@@ -166,15 +168,15 @@ h3 {
 
 .github-contenedor{
     position: relative;
-    top: 28%;
+    top: 9.5vh;
     width: auto;
     height: auto;
 
 }
 .githubicon {
-    height: 23px;
+    height: 4vh;
     position: absolute;
-    left: -31px;
+    left: -5.1vh;
 }
 
 .github {
@@ -192,15 +194,15 @@ h3 {
 
 .linkedin-contenedor{
     position: relative;
-    top: 42%;
+    top: 14vh;
     width: auto;
     height: auto;
 
 }
 
 .linkedinicon {
-    height: 23px;
-    left: -31px;
+    height: 4vh;
+    left: -5.1vh;
     position: absolute;
 }
 
@@ -247,8 +249,8 @@ p {
     padding: 5px;
     border-radius: 5px;
     position: absolute;
-    bottom: 125%;
-    left: 50%;
+    bottom: 6vh;
+    left: 3.2vw;
     transform: translateX(-50%);
     z-index: 100;
     transition: opacity 0s;
@@ -269,13 +271,6 @@ h4{
     padding: 0;
 }
 
-.pestañas {
-    display: flex;
-    top: 40%;
-    position: absolute;
-    z-index: 10; 
-}
-
 .contenido {
     text-align: left;
     overflow: auto;
@@ -289,47 +284,50 @@ h4{
 .panel.activo {
     display: block;
     position: absolute;
-    top: 43%;
-    left: 5%;
-    width: 90%;
-    height: auto;
+    top: 43vh;
+    left: 5vh;
+    width: 90vw;
+    height: 45vh;
 }
 
 .fondo {
     display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     z-index: -1;
-    height: 5.8%;
-    width: 19.2%;
-    top: 34.2%;
+    height:5.8vh;
+    width: 19.2vw;
+    top: 34.2vh;
     background-color: rgb(36, 36, 36);
 }
 
 .bienvenida.fondo {
-    left: 4%;
+    left: 4vw;
     position: fixed;
     cursor: pointer;
 }
 
 .carreras.fondo {
-    left: 23.2%;
+    left: 23.2vw;
     position: fixed;
     cursor: pointer;
 }
 
 .aptitudes.fondo {
-    left: 42.4%;
+    left: 42.4vw;
     position: fixed;
     cursor: pointer;
 }
 
 .proyectos.fondo {
-    left: 61.6%;;
+    left: 61.6vw;
     position: fixed;
     cursor: pointer;
 }
 
 .gustos.fondo{
-    left: 80.8%;
+    left: 80.8vw;
     position: fixed;
     cursor: pointer;
 }
@@ -340,36 +338,34 @@ h4{
 
  .menuF {
     background-color: rgb(53, 53, 53);
-    width: 4%;
-    height: 17%;
+    width: 4vw;
+    height: 5.8vh;
     z-index: -1;
-    right: 96%;
-    top: 100%;
+    right: 96vw;
+    top: 34.2vh;
     position:absolute;
 }
 
 .pestaña {
     position: relative;
-    top:3px;
-    text-align: center;
     font-weight: normal;
 }
 
 a.sw {
-    right: 90%;
+    right: 90vw;
 }
 
 a.mid {
     width: 2px;
     height: 200px;
     background-color: rgb( 58, 58, 58);
-    left: 58%;
-    top: 20px;
+    left: 58vw;
+    top: 3vh;
     position: absolute;
 }
 
 a.lang {
-    left:65%;
+    left:65vw;
     top:0;
     position: absolute;
 }
@@ -386,29 +382,169 @@ a.lang {
 }
 
 .vj {
-    position: absolute;
-    left: 12.25%;
+    position: relative;
+    width: 45vw;
+    height: 37vh;
+    top: -3vh;
+}
+
+.vjc.tt {
+    position: relative;
+    top: 2vh;
     text-align: center;
 }
 
 .vjc.mc {
-    position: relative;
-    left: -50%;
+    position: absolute;
+    text-align: right;
+    left: 6.5vh;
+    top: 10vh;
 }
 
 .vjc.tf {
-    position: relative;
-    left: 50%;
-    top: -35px;
+    position: absolute;
+    text-align: left;
+    left: 31vw;
+    top: 10vh;
 }
 
 .vjc.ac {
-    position: relative;
-    left: -52%;
+    position: absolute;
+    text-align: center;
+    left: 7vw;
+    top: 20vh;
 }
 
 .vjc.ai {
+    position: absolute;
+    text-align: center;
+    left: 27.5vw;
+    top: 20vh;
+}
+
+.estc {
     position: relative;
-    left: 52%;
-    top: -35px;
+    left: 50vw;
+    width: 37vw;
+    height:37vh;
+    top: -40vh;
+}
+
+.est {
+    position: absolute;
+    width: 45vw;
+    text-align: center;
+    top: 2vh;
+    left: -1vh;
+}
+
+.spunk {
+    position: absolute;
+    text-align: right;
+    left: 6vw;
+    top: 10vh;
+    
+}
+
+.brt {
+    position: absolute;
+    text-align: left;
+    left: 31vw;
+    top: 10vh;
+}
+
+.urbx {
+    text-align: right;
+    position: absolute;
+    left: 12vw;
+    top: 20vh;
+}
+
+.atpunk {
+    position: absolute;
+    text-align: left;
+    left: 27.5VW;
+    top: 20vh;
+}
+
+.av {
+    position: relative;
+    width: 50vw;
+    top: -37vh;
+}
+
+.avc.tt {
+    position: absolute;
+    text-align: center;
+    width: 45vw;
+}
+
+.avc.SM {
+    position: absolute;
+    text-align: center;
+    top: 20vh;
+    left: 5.5vw;
+}
+
+.avc.BD {
+    position: absolute;
+    text-align: center;
+    top: 8vh;
+    left: 2.5vw;
+}
+
+.avc.CBP {
+    position: absolute;
+    text-align: center;
+    top: 8vh;
+    left: 30.2vw;
+}
+
+.avc.TMNT {
+    position: absolute;
+    text-align: center;
+    top: 20vh;
+    left: 26.2vw;
+}
+
+.hob {
+    position: relative;
+    width: 50vw;
+    left: 50vw;
+    top: -37vh;
+}
+
+.hoby.tt {
+    position: absolute;
+    text-align: center;
+    width: 45vw;
+    left: 1vw;
+}
+
+.hoby.VJ {
+    position: absolute;
+    text-align: center;
+    top: 8vh;
+    left: 4.5vw;
+}
+
+.hoby.DR {
+    position: absolute;
+    text-align: center;
+    top: 8vh;
+    left: 30.2vw;
+}
+
+.hoby.CL {
+    position: absolute;
+    text-align: center;
+    top: 20vh;
+    left: 11vw;
+}
+
+.hoby.PC {
+    position: absolute;
+    text-align: center;
+    top: 20vh;
+    left: 24.5vw;
 }
