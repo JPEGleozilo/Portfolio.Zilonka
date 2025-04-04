@@ -14,6 +14,7 @@ height: 34.2%;
 background-color: rgb(53, 53, 53);
 position:fixed;
 z-index: 10;
+transform-origin: top left;
 }
 
 .rectangulo * {
@@ -22,14 +23,13 @@ z-index: 10;
     color: white;}
 
 .pfp {
-    width: 150px;
-    height: 150px;
+    width: 11%;
     border-radius: 100%;
     object-fit: cover;
     display: block;
-    position: fixed;
-    top: 5%;
-    left: 20px;
+    position: absolute;
+    top: 13%;
+    left: 1%;
 }
 
 body {
@@ -41,132 +41,105 @@ h1 {
 h2 {
     font-family: 'Arial Narrow';
     font-weight: normal;
-    font-size:larger;
+    font-size:120%;
+}
+h3 {
+    font-family: Arial;
+    font-weight: normal;
+    font-size: 120%;
 }
 
 .nombre {
-    left: 175px;
-    top: 78px;
-    position: fixed;
+    left:13%;
+    top: 30%;
+    position: absolute;
     font-stretch: expanded;
 }
 .carrera {
-    left: 174px;
-    top: 115px;
-    position:fixed;
+    left: 13%;
+    top: 48%;
+    position:absolute;
     font-stretch: ultra-expanded;
 }
 
 .universidad {
-    left: 170px;
-    top: 140px;
-    position: fixed;
+    left: 13%;
+    top: 58%;
+    position: absolute;
     font-stretch: extra-condensed;
 }
 
 .menu {
-    top: 210px;
+    top: 100%;
     left: 0.65%;
-    position: fixed;
+    position: absolute;
+    align-content: center;
 }
 
-.separador {
-    width: 100%;
-    height: 5.8%;
-    background-color: rgb(36, 36, 36);
-    position: fixed;
-    top: 34.2%;
-    z-index: -10;
-}
-
-h3 {
-    font-family: Arial;
-    font-weight: normal;
-    font-size:larger;
-}
-
-.inter1 {
-    width: 2px;
-    height: 35.55px;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 210px;
+.inter.uno {
     left: 4%;
 }
 
 .bienvenida {
-    position: fixed;
+    position: relative;
 }
 
-.inter2 {
-    width: 2px;
-    height: 35.55px;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 210px;
+.inter.dos {
     left:23.2%;
 }
 
 .carreras {
-    position: fixed;
+    position: relative;
 }
 
-.inter3 {
-    width: 2px;
-    height: 35.55px;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 210px;
+.inter.tres {
     left: 42.4%;
 }
 
 .aptitudes {
-    position: fixed;
+    position: relative;
 }
 
-.inter4 {
-    width: 2px;
-    height: 40px;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 210px;
+.inter.cuatro {
     left: 61.6%;
 }
 
 .proyectos {
-    position: fixed;
+    position: relative;
 }
 
-.inter5 {
-    width: 2px;
-    height: 35.55px;
-    background-color: rgb(255, 255, 255);
-    position: fixed;
-    top: 210px;
+.inter.cinco {
     left: 80.8%;
 }
 
+.inter {
+    width: 2px;
+    height: 17%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 100%;
+}
+
 .gustos {
-    position: fixed;
+    position: relative;
 }
 
 .contactos-contenedor {
-    left: 87%;
-    top: 50px;
+    left: 82%;
+    top: 25%;
     position: relative;
     width: auto;
     height: auto;
 }
 
 .contactos {
-    left: -85px;
-    position: relative;
+    left: -20%;
+    position: absolute;
 }
 
 .mail-contenedor{
     position: relative;
-    left: -55px;
-    top: 4px;
+    top: 14%;
     width: auto;
     height: auto;
     
@@ -179,7 +152,7 @@ h3 {
 }
 
 .mail {
-    position: relative;
+    position: absolute;
 }
 
 .mail a {
@@ -193,8 +166,7 @@ h3 {
 
 .github-contenedor{
     position: relative;
-    top: 9px;
-    left:-55px;
+    top: 28%;
     width: auto;
     height: auto;
 
@@ -206,7 +178,7 @@ h3 {
 }
 
 .github {
-    position: relative;
+    position: absolute;
 }
 
 .github a {
@@ -220,8 +192,7 @@ h3 {
 
 .linkedin-contenedor{
     position: relative;
-    top: 16px;
-    left:-55px;
+    top: 42%;
     width: auto;
     height: auto;
 
@@ -234,7 +205,7 @@ h3 {
 }
 
 .linkedin {
-    position: relative;
+    position: absolute;
     
 }
 
@@ -252,7 +223,7 @@ p {
     margin: 0;
     padding: 0;
     font-family: Georgia;
-    font-size: 30px;
+    font-size: 190%;
     font-weight: lighter;
 }
 
@@ -264,7 +235,6 @@ p {
     position: relative;
     cursor: pointer;
 }
-
 
 .tooltip-text {
     visibility: hidden;
@@ -292,7 +262,7 @@ p {
 h4{
     font-family: Georgia;
     color: rgb(0, 0, 0);
-    font-size: 40px;
+    font-size: 300%;
     font-weight: lighter;
     text-decoration: underline;
     margin: 0;
@@ -302,7 +272,7 @@ h4{
 .pestañas {
     display: flex;
     top: 40%;
-    position: fixed;
+    position: absolute;
     z-index: 10; 
 }
 
@@ -328,69 +298,54 @@ h4{
 .fondo {
     display: block;
     z-index: -1;
-    height: 35.55px;
+    height: 5.8%;
+    width: 19.2%;
     top: 34.2%;
+    background-color: rgb(36, 36, 36);
 }
 
 .bienvenida.fondo {
     left: 4%;
-    background-color: rgb(36, 36, 36);
-    width: 19.2%;
-    height: 35.55px;
     position: fixed;
     cursor: pointer;
 }
 
 .carreras.fondo {
     left: 23.2%;
-    background-color: rgb(36, 36, 36);
-    width: 19.2%;
-    height: 35.55px;
     position: fixed;
     cursor: pointer;
 }
 
 .aptitudes.fondo {
     left: 42.4%;
-    background-color: rgb(36, 36, 36);
-    width: 19.2%;
-    height: 35.55px;
     position: fixed;
     cursor: pointer;
 }
 
 .proyectos.fondo {
-    background-color: rgb(36, 36, 36);
-    left: 61.6%;
-    width: 19.2%;
-    height: 35.55px;
+    left: 61.6%;;
     position: fixed;
     cursor: pointer;
 }
 
 .gustos.fondo{
     left: 80.8%;
-    background-color: rgb(36, 36, 36);
-    width: 19.2%;
-    height: 35.55px;
     position: fixed;
     cursor: pointer;
 }
 
 .fondo.activo {
-    width: 19.2%;
-    display: block;
     background-color: rgb(53, 53, 53);
 }
 
  .menuF {
     background-color: rgb(53, 53, 53);
     width: 4%;
-    height: 5.8%;
+    height: 17%;
     z-index: -1;
     right: 96%;
-    top: 34.2%;
-    position:fixed;
+    top: 100%;
+    position:absolute;
 }
 
 .pestaña {
