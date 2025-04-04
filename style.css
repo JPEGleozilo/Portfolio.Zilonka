@@ -390,6 +390,7 @@ a.lang {
 
 .vjc.tt {
     position: relative;
+    text-decoration: underline;
     top: 2vh;
     text-align: center;
 }
@@ -432,6 +433,7 @@ a.lang {
 
 .est {
     position: absolute;
+    text-decoration: underline;
     width: 45vw;
     text-align: center;
     top: 2vh;
@@ -475,6 +477,7 @@ a.lang {
 
 .avc.tt {
     position: absolute;
+    text-decoration: underline;
     text-align: center;
     width: 45vw;
 }
@@ -516,6 +519,7 @@ a.lang {
 
 .hoby.tt {
     position: absolute;
+    text-decoration: underline;
     text-align: center;
     width: 45vw;
     left: 1vw;
@@ -547,4 +551,24 @@ a.lang {
     text-align: center;
     top: 20vh;
     left: 24.5vw;
+}
+
+.sepV {
+    width: .15vw;
+    height: 82vh;
+    background-color: rgb( 58, 58, 58);
+    overflow-y: hidden;
+    left: 50vw;
+    top: -3vh;
+    position: absolute;
+}
+
+.sepH {
+    width: 105vw;
+    overflow-x: hidden;
+    height: .15vh;
+    background-color: rgb( 58, 58, 58);
+    left: -5vw;
+    top: 33vh;
+    position: absolute;
 }
